@@ -4,18 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Hello-City</title>
+        <title> @yield('title', 'Hello-City App') </title>
     </head>
 
     <body class="antialiased">
 
         @yield('content')
 
-        <footer>
-          <p>
-            &copy; Copyright {{date("Y")}} 
-            &middot; <a href="/about_us">About Us</a> 
-        </p>
-        </footer>
+        @yield('footer')
     </body>
 </html>
