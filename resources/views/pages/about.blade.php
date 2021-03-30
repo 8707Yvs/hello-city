@@ -3,7 +3,7 @@
 @section('title', 'About-Us | ' . config('app.name'))
 
 @section('content')
-        <img src="/img/chp.png" alt="Book">
+        <img src="{{asset('img/chp.png')}}" alt="Book">
 
         <p>Build viwth &hearts; by Yvs Kilunga.</p>
 

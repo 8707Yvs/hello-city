@@ -3,7 +3,7 @@
 
 @section('content')
 
-        <img src="/img/book.png" alt="Book">
+        <img src="{{asset('img/book.png')}}" alt="Book">
 
         <h1>Hello from Quebec!</h1>
 
