@@ -3,6 +3,8 @@
 
 @section('content')
 
+        <img src="/img/book.png" alt="Book">
+
         <h1>Hello from Quebec!</h1>
 
         <p>It's currently {{ date("H:i A") }}.</p>
