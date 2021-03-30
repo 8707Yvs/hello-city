@@ -8,9 +8,4 @@
 
         <p> <a href="{{route('home')}}">Revenir à la page d'accueil</a> </p>
 
-        @section('footer')
-            <footer> <p> &copy; Copyright {{date("Y")}}</p></footer>
-        @endsection
-
-
 @endsection

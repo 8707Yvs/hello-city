@@ -7,13 +7,4 @@
 
         <p>It's currently {{ date("H:i A") }}.</p>
 
-        @section('footer')
-            <footer>
-                <p>
-                    &copy; Copyright {{date("Y")}}
-                    &middot; <a href="{{route('about')}}">About Us</a> 
-                </p>
-            </footer>
-        @endsection
-
 @endsection
