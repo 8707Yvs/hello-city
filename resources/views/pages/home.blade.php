@@ -1,6 +1,6 @@
 @extends('base')
 
-    
+
 @section('content')
 
         <h1>Hello from Quebec!</h1>
@@ -10,8 +10,8 @@
         @section('footer')
             <footer>
                 <p>
-                    &copy; Copyright {{date("Y")}} 
-                    &middot; <a href="/about_us">About Us</a> 
+                    &copy; Copyright {{date("Y")}}
+                    &middot; <a href="{{route('about')}}">About Us</a> 
                 </p>
             </footer>
         @endsection
